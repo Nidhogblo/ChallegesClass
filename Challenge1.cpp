@@ -21,10 +21,12 @@ void function(int x1, int y1, int x2, int y2) {
             else {
                 cout << x << "," << y << endl;
                 p = p +  dy;
+                x = x + 1;
             }
-            x = x + 1;
+            
         }
 
+       
         while (y < y2)
         {
             if (p >= 0) {
@@ -35,8 +37,9 @@ void function(int x1, int y1, int x2, int y2) {
             else {
                 cout << x << "," << y << endl;
                 p = p +  dy;
+                x = x + 1;
             }
-            x = x + 1;
+            
         }
        
     
